@@ -1,0 +1,52 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav > h4 {
+    flex: 1 1 auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+ul > li {
+    flex: 1 1 auto;
+    /* border: 1px solid black; */
+    margin: 2px;
+    padding: 2px;
+}
+
+label {
+    margin: 2px;
+    padding: 2px;
+}
+
+.singlePlayer {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100px; */
+    flex: 1 1 auto;
+    display: inline-block;
+    align-items: center;
+}
+
+.singlePlayer > img {
+    height: 500px;
+    width: 350px;
+}
